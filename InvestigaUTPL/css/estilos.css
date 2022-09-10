@@ -1,0 +1,211 @@
+	* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background: #f3f3f3;
+	font-family: sans-serif;
+}
+
+button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.cabprinci {
+	width: 100%;
+	background-color: #21628c;
+	display: block;
+	text-align: center;
+	justify-content: center;
+}
+
+.cabprinci img {
+	padding: 1em;
+	width: 100px;
+}
+
+.cabprinci h1 {
+	color: #fff;
+	padding: 10px 40px;
+	text-shadow: #000 3px 2px 2px;
+}
+
+.menuprinci {
+	background-color: #21566c;
+	text-align: center;
+	padding: 9px 15px;
+}
+
+.menuprinci a {
+	text-decoration: none;
+	padding: 9px 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.menuprinci a:hover {
+	background-color: #fff;
+	color: #003f72;
+	transition: 1s;
+}
+
+.sliderprinci img {
+	width: 100%;
+}
+
+.h1Info {
+	text-align: center;
+	padding: 1em 0;
+	color: #003f72;
+	font-size: 50px;	
+}
+
+.h1Login {
+	text-align: center;
+	padding: 1em 0;
+	color: #003f72;
+	font-size: 30px;
+}
+
+.seccion {
+	text-align: center;
+}
+
+.tema {
+	
+	background: #EDEDED;
+	border: 1px solid #BBB6B6;
+	box-sizing: border-box;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	max-width: 30%;
+ 	max-height: 30%;
+}
+
+.tema img {
+	height: 250px;
+	width: 375px;
+}
+
+.tema h3 {
+	color: #eaab00;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.tema p {
+	padding: 0.2em 1em;
+	font-size: 18px;
+	color: #494848;
+
+}
+
+.tema button {
+	background-color: #003f72;
+	color: #fff;
+	padding: 0.5em 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	color: #eaab00;
+	font-family: sans-serif;
+}
+
+.tema a{
+	color: #eaab00;
+	font-family: sans-serif;
+}
+
+main {
+	padding: 1em 2em;
+}
+
+.tablecud {
+	width: 100%;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+th, td {
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	padding: 0.3em;
+	caption-side: bottom;
+}
+
+tr:hover {
+	background: #ccc;
+	color: #000;
+}
+
+input, select {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+}
+
+form .btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+form .btn-submit:hover {
+	background: rgba(94, 125, 227, .9);
+}
+
+.piepag {
+	background-color: #003f72;
+	color: #fff;
+}
+
+.piepag h6 {
+	text-align: center;
+	padding: 2em 0;
+	color: #eaab00;
+	font-family: sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.headerContainer {
+		width: 100%;
+	}
+
+	body {
+		width: 100%;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	.tema {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+}
